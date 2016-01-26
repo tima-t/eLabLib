@@ -3,7 +3,7 @@
 
 
 $app->get('/', function ($req, $res, $args) {
-    echo ' Hello haha ';
+    include "../controllers/loginC.php";
 })->add($mw);
 
 
